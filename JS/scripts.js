@@ -1,5 +1,5 @@
 function aboutMeInfo(beer, snack,) {
-  return beer + snack
+  return beer + snack;
   // return  "My name is say " + name + "," + age + " years old. " + "My favorite beer is " favoriteBeer "," 
   // "favorite snack is " =favoriteSnack + "," + " and my favorite sport is " + favoriteSport + "."
 }
@@ -12,10 +12,11 @@ $(document).ready(function() {
     const beer = parseInt($("#beer").val());
     const snack = parseInt($("#snack").val());
     const sport = $("input:radio[name=sport]:checked").val;
-    console.log(sport)
+    
     const total = aboutMeInfo(beer, snack);
     
     $("#username").text(name);
+    console.log(.text(name));
     // $(#"output").show(total);
     
     // $("#username").text(name);

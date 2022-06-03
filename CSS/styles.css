@@ -5,3 +5,7 @@
 #output {
   display: none;
 }
+
+#reset{
+  border: 3px solid black;
+}

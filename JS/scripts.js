@@ -8,13 +8,9 @@ $(document).ready(function() {
     const name = $("#name").val();
     const age = $("#age").val();
     const beer = parseInt($("#beer").val());
-  
     const snack = parseInt($("#snack").val());
     const sport = $("input:radio[name=sport]:checked").val();
-    
     const total = aboutMeInfo(beer, snack);
-   
-  
     $("#username").text(name);
     
     $(".btn-reset").click(function () {
@@ -62,8 +58,7 @@ $(document).ready(function() {
         $("#language").text("C#");
         $("#output").show();
       }
-   
-  });
+   });
 });
 
 

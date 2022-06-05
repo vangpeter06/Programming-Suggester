@@ -9,3 +9,14 @@
 #reset{
   border: 3px solid black;
 }
+
+#output {
+  display: hidden;
+}
+
+.result {
+  color: black;
+  background-color: rgba(25, 116, 15, 0.774);
+  padding: 20px;
+  float: center;
+}

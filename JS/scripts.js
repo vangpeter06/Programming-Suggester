@@ -12,6 +12,7 @@ $(document).ready(function() {
     const sport = $("input:radio[name=sport]:checked").val();
     const total = aboutMeInfo(beer, snack);
     $("#username").text(name);
+    $(".btn-submit").hide();
     
     $(".btn-reset").click(function () {
       $("#program").trigger("reset");
@@ -57,6 +58,10 @@ $(document).ready(function() {
       } else (total >= 21 && total <= 40);
         $("#language").text("C#");
         $("#output").show();
+      }
+
+      else {
+        alert ("Please enter you name")
       }
    });
 });

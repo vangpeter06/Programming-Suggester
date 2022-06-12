@@ -59,10 +59,6 @@ $(document).ready(function() {
         $("#language").text("C#");
         $("#output").show();
       }
-
-      else {
-        alert ("Please enter you name")
-      }
    });
 });
 
